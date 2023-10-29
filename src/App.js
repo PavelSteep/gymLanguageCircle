@@ -6,6 +6,7 @@ import Offer from "./Components/Offer";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
 import { LanguageProvider } from "./LanguageContext";
+import LoginForm from "./Components/LoginForm";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Offer />
         <About />
         <Contact />
+        <LoginForm />
       </div>
     </LanguageProvider>
   );
